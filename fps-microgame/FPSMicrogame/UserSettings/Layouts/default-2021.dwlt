@@ -14,17 +14,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 2249
-    y: 302.5
-    width: 1206
-    height: 715
+    x: 0
+    y: 43.2
+    width: 2048
+    height: 1068.8
   m_ShowMode: 4
-  m_Title: 
-  m_RootView: {fileID: 6}
+  m_Title: Project
+  m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 0
+  m_Maximized: 1
 --- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1655.2
+    y: 0
+    width: 392.80005
+    height: 1018.80005
+  m_MinSize: {x: 300, y: 300}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37,44 +63,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 9}
-  - {fileID: 3}
+  - {fileID: 10}
+  - {fileID: 4}
+  - {fileID: 2}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1206
-    height: 665
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+    width: 2048
+    height: 1018.80005
+  m_MinSize: {x: 400, y: 200}
+  m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 119
---- !u!114 &3
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 921
-    y: 0
-    width: 285
-    height: 665
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 13}
-  m_Panes:
-  - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 0
+  controlID: 1994
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -90,18 +91,45 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+    x: 1323.2
+    y: 0
+    width: 332
+    height: 1018.80005
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  - {fileID: 13}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
     x: 0
     y: 0
-    width: 228
-    height: 394
+    width: 264
+    height: 650.4
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 14}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &5
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -117,18 +145,18 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 394
-    width: 921
-    height: 271
+    y: 650.4
+    width: 1323.2
+    height: 368.40002
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 12}
-  - {fileID: 17}
+  - {fileID: 16}
+  - {fileID: 21}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &6
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,18 +169,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 7}
-  - {fileID: 2}
   - {fileID: 8}
+  - {fileID: 3}
+  - {fileID: 9}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1206
-    height: 715
+    width: 2048
+    height: 1068.8
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
---- !u!114 &7
+  m_UseTopView: 1
+  m_TopViewHeight: 30
+  m_UseBottomView: 1
+  m_BottomViewHeight: 20
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -169,14 +201,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1206
+    width: 2048
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LoadedToolbars: []
-  m_MainToolbar: {fileID: 18}
-  m_LastLoadedLayoutName: Default
---- !u!114 &8
+  m_LastLoadedLayoutName: TutorialLayout
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -192,36 +222,11 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 695
-    width: 1206
+    y: 1048.8
+    width: 2048
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &9
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 10}
-  - {fileID: 5}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 921
-    height: 665
-  m_MinSize: {x: 403, y: 492}
-  m_MaxSize: {x: 10001, y: 14042}
-  vertical: 1
-  controlID: 92
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -235,18 +240,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 4}
   - {fileID: 11}
+  - {fileID: 6}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 921
-    height: 394
-  m_MinSize: {x: 403, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
-  vertical: 0
-  controlID: 93
+    width: 1323.2
+    height: 1018.80005
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 2000
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -256,25 +261,760 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 5}
+  - {fileID: 12}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1323.2
+    height: 650.4
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 2001
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 228
+    x: 264
     y: 0
-    width: 693
-    height: 394
+    width: 1059.2
+    height: 650.4
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 19}
   m_Panes:
+  - {fileID: 19}
+  - {fileID: 20}
   - {fileID: 15}
-  - {fileID: 16}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &12
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12141, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 300, y: 360}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Navigation
+    m_Image: {fileID: 1087843850482249999, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1979
+    y: 75
+    width: 275
+    height: 1260
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba8f85f9d6bbb46d180610e6061865df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 300, y: 300}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Tutorials
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1655.2001
+    y: 73.6
+    width: 391.80005
+    height: 997.80005
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_AllParagraphs:
+  - m_Type: 6
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 2800000, guid: 7047302abcab8496488f93b3f766350d, type: 3}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 1
+      m_UnmaskedViews:
+      - m_SelectorType: 1
+        m_ViewType:
+          m_TypeName: 
+        m_EditorWindowType:
+          m_TypeName: Unity.Tutorials.Core.Editor.TutorialWindow, Unity.Tutorials.Core.Editor,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items: []
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 0
+    Title:
+      m_Untranslated: Build and publish
+    Text:
+      m_Untranslated: "Before you publish your game, discover more ways to customize
+        it with the FPS<a href=\"https://learn.unity.com/project/fps-template\">Creative
+        Mods</a>.\n\nWhen you\u2019re ready, this tutorial will guide you through
+        building and publishing your game on a webpage that you can share with friends!\n\n<b>BONUS:</b>
+        by publishing your game, you\u2019ll unlock a powerful <b>Sniper Rifle</b>
+        to use in future builds!\n\n<b>Notes:</b>\n\n\u2022 The Creative Mods link
+        above will open the <b>Unity Learn</b> website in your default browser.\n\n\u2022
+        Please keep in mind that building this Unity project can take some time."
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 1
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: Select <b>Start</b> to begin.
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 6
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 2800000, guid: bbe7aeeb661974db4999246afffec8b3, type: 3}
+    m_Video: {fileID: 32900000, guid: 5b7680371f1b34fe49c339038de4258f, type: 3}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 1
+      m_UnmaskedViews:
+      - m_SelectorType: 1
+        m_ViewType:
+          m_TypeName: 
+        m_EditorWindowType:
+          m_TypeName: Unity.Tutorials.Core.Editor.TutorialWindow, Unity.Tutorials.Core.Editor,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items: []
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 0
+    Title:
+      m_Untranslated: Open the WebGL Publisher
+    Text:
+      m_Untranslated: "In this tutorial, you\u2019ll export your Microgame project
+        as a WebGL game. Your game will then have its own dedicated webpage. "
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 1
+    Title:
+      m_Untranslated: Open the WebGL Publisher window
+    Text:
+      m_Untranslated: In the top menu, go to <b>Publish</b> > <b>WebGL project</b>.
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items:
+      - Type:
+          m_TypeName: Unity.Tutorials.Core.Editor.EditorWindowCriterion, Unity.Tutorials.Core.Editor,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        Criterion: {fileID: -4710486571970311243, guid: fcca6e4cbcfd27e49bf16a7c3a6eb019,
+          type: 2}
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 7
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 2800000, guid: 8397db88d32d5418e8ebc7e6bb6ccafc, type: 3}
+    m_Video: {fileID: 32900000, guid: e9f4ef2422b80da4ea767e6d99be57c4, type: 3}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 1
+      m_UnmaskedViews:
+      - m_SelectorType: 1
+        m_ViewType:
+          m_TypeName: 
+        m_EditorWindowType:
+          m_TypeName: Unity.Play.Publisher.Editor.PublisherWindow, Unity.Play.Publisher.Editor,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items: []
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 0
+    Title:
+      m_Untranslated: Get started
+    Text:
+      m_Untranslated: "Now that you\u2019ve opened the <b>WebGL Publisher</b> window,
+        you can set up Unity Editor to publish projects on Unity Play."
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 1
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: Select <b>Get Started</b> in the <b>WebGL Publisher</b> window.
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items:
+      - Type:
+          m_TypeName: Unity.Tutorials.Core.Editor.ArbitraryCriterion, Unity.Tutorials.Core.Editor,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        Criterion: {fileID: 1171428662055131150, guid: 97f3ee3958d87894d8f23cc258f28f0e,
+          type: 2}
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 6
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 2800000, guid: d8622fca6b1897a4282325fd961b7f23, type: 3}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 1
+      m_UnmaskedViews:
+      - m_SelectorType: 1
+        m_ViewType:
+          m_TypeName: 
+        m_EditorWindowType:
+          m_TypeName: Unity.Play.Publisher.Editor.PublisherWindow, Unity.Play.Publisher.Editor,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items: []
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 0
+    Title:
+      m_Untranslated: Sign in
+    Text:
+      m_Untranslated: To publish your game on Unity Play, you need to sign in with
+        your Unity ID.
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 1
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: Select <b>Sign in</b>, then sign in with your Unity ID.
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items:
+      - Type:
+          m_TypeName: Unity.Tutorials.Core.Editor.ArbitraryCriterion, Unity.Tutorials.Core.Editor,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        Criterion: {fileID: 1171428662055131150, guid: eb4604b43980b3740a07722643b2ecbe,
+          type: 2}
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 7
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 2800000, guid: 8397db88d32d5418e8ebc7e6bb6ccafc, type: 3}
+    m_Video: {fileID: 32900000, guid: 662bbb629effd9c4bbf9fadf15b78224, type: 3}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 1
+      m_UnmaskedViews:
+      - m_SelectorType: 1
+        m_ViewType:
+          m_TypeName: 
+        m_EditorWindowType:
+          m_TypeName: Unity.Play.Publisher.Editor.PublisherWindow, Unity.Play.Publisher.Editor,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items: []
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 0
+    Title:
+      m_Untranslated: Build your game
+    Text:
+      m_Untranslated: "Before you can publish your game, you need to build it. This
+        will create a playable file of your game on your computer.\n\n<b>Notes:</b>\n\n\u2022
+        This step could take up to 30 minutes.\n\n\u2022 If you are prompted to switch
+        to WebGL, click <b>\"Switch to WebGL\"</b> and choose a folder for your build
+        in the window that appears.\n\n\u2022 You can use the default folder, or
+        create a new folder to store your build files."
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 1
+    Title:
+      m_Untranslated: Create a build
+    Text:
+      m_Untranslated: 'Select <b>Build and Publish</b>.
+
+
+        When your build
+        is complete, select <b>Next</b> to continue.'
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 1
+    m_Criteria:
+      m_Items:
+      - Type:
+          m_TypeName: Unity.Tutorials.Core.Editor.BuildStartedCriterion, Unity.Tutorials.Core.Editor,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        Criterion: {fileID: 8633940888800370194, guid: daafa2d048ca372498d84eb1ff8a9a31,
+          type: 2}
+      - Type:
+          m_TypeName: Unity.Tutorials.Core.Editor.ArbitraryCriterion, Unity.Tutorials.Core.Editor,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        Criterion: {fileID: -6242357031604912793, guid: daafa2d048ca372498d84eb1ff8a9a31,
+          type: 2}
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 7
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 2800000, guid: 8397db88d32d5418e8ebc7e6bb6ccafc, type: 3}
+    m_Video: {fileID: 32900000, guid: 1e217e28d0252294f8db002b95c87209, type: 3}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 1
+      m_UnmaskedViews:
+      - m_SelectorType: 1
+        m_ViewType:
+          m_TypeName: 
+        m_EditorWindowType:
+          m_TypeName: Unity.Play.Publisher.Editor.PublisherWindow, Unity.Play.Publisher.Editor,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items: []
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 0
+    Title:
+      m_Untranslated: Publish your game
+    Text:
+      m_Untranslated: 'Now that your build is ready, you can publish it on Unity
+        Play!
+
+
+        <b>Note:</b> This step could take up to 30 minutes.'
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 1
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: Select <b>Publish</b> to publish your build on Unity Play.
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items:
+      - Type:
+          m_TypeName: Unity.Tutorials.Core.Editor.ArbitraryCriterion, Unity.Tutorials.Core.Editor,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        Criterion: {fileID: -2340161092345423632, guid: 6f964d3cc40f45747aebcf0c57f609ba,
+          type: 2}
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 7
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 2800000, guid: 8397db88d32d5418e8ebc7e6bb6ccafc, type: 3}
+    m_Video: {fileID: 32900000, guid: 1e217e28d0252294f8db002b95c87209, type: 3}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 1
+      m_UnmaskedViews:
+      - m_SelectorType: 1
+        m_ViewType:
+          m_TypeName: 
+        m_EditorWindowType:
+          m_TypeName: Unity.Play.Publisher.Editor.PublisherWindow, Unity.Play.Publisher.Editor,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items: []
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 0
+    Title:
+      m_Untranslated: Your game is being processed
+    Text:
+      m_Untranslated: "Your game is uploading to Unity Play. \n\nIn a few minutes,
+        you'll be able to share your game with your friends!"
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 1
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items:
+      - Type:
+          m_TypeName: Unity.Tutorials.Core.Editor.ArbitraryCriterion, Unity.Tutorials.Core.Editor,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        Criterion: {fileID: -2340161092345423632, guid: 9903de0d10380094eb753dcdac1f5e68,
+          type: 2}
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 6
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: 
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 2800000, guid: f3cffb91162b24b428d0f2ab4831d5e7, type: 3}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews:
+      - m_SelectorType: 1
+        m_ViewType:
+          m_TypeName: 
+        m_EditorWindowType:
+          m_TypeName: Unity.Connect.Share.Editor.ShareWindow, Unity.Connect.Share.Editor,
+            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        m_AlternateEditorWindowTypes:
+          m_Items: []
+        m_MaskType: 0
+        m_MaskSizeModifier: 0
+        m_UnmaskedControls: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 0
+    Title:
+      m_Untranslated: Share your game
+    Text:
+      m_Untranslated: "You\u2019re almost ready to share! Before you do, add some
+        details for your game directly on Unity Play: a title, description, and a
+        thumbnail, if you like.\n\nIt\u2019s also a good idea to test one more time,
+        to make sure that everything works as expected.\n\n<b>Your journey doesn't
+        end here:</b>\n\n\u2022 When you\u2019re ready, share the link so others
+        can play your game!\n\n\u2022 After publishing your game, you\u2019ll find
+        the bonus <b>Sniper Rifle</b> added to My Assets in the Unity Asset Store.
+        Go check it out!\n\n\u2022 You can <a href=\"https://learn.unity.com/project/fps-template\">try
+        out the Creative Mods</a> and explore other Microgames on <a href=\"https://learn.unity.com/\">Unity
+        Learn!</a> These links will open in your default browser window.\n\n\u2022
+        Learn more about Unity and continue your creator journey with <a href=\"https://learn.unity.com/pathway/unity-essentials\">Unity
+        Essentials!</a>"
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  - m_Type: 1
+    Title:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: Select <b>Done</b> to return to the tutorial overview.
+    m_Tutorial: {fileID: 0}
+    m_Image: {fileID: 0}
+    m_Video: {fileID: 0}
+    m_CriteriaCompletion: 0
+    m_Criteria:
+      m_Items: []
+    m_MaskingSettings:
+      m_MaskingEnabled: 0
+      m_UnmaskedViews: []
+    m_Summary: 
+    m_Description: 
+    m_InstructionBoxTitle: 
+    m_InstructionText: 
+    m_TutorialButtonText: 
+  m_ActiveContainer: {fileID: 11400000, guid: 977fb762f450240fd9006b8153a0f534, type: 2}
+  m_TutorialProjects: []
+  m_VisibleContainers:
+  - {fileID: 11400000, guid: 977fb762f450240fd9006b8153a0f534, type: 2}
+  m_ChildContainers: []
+  m_MaskingEnabled: 1
+  m_FarthestPageCompleted: -1
+  m_PlayModeChanging: 0
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 2048, y: 2048}
+  m_TitleContent:
+    m_Text: Asset Store
+    m_Image: {fileID: -7444545952099596278, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 468
+    y: 181
+    width: 973
+    height: 501
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -290,15 +1030,19 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000,
+      type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2249
-    y: 726.5
-    width: 920
-    height: 250
+    x: 0
+    y: 724
+    width: 1322.2
+    height: 347.40002
   m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
@@ -312,21 +1056,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/AddOns
     m_Globs: []
+    m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/AddOns
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: U:\layout
+  m_LastProjectPath: D:\Documents\UnityProjects\Tutorials\get-started-with-unity\fps-microgame\FPSMicrogame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f4350000
-    m_LastClickedID: 13812
-    m_ExpandedIDs: 00000000f435000000ca9a3b
+    m_SelectedIDs: 9ea30100
+    m_LastClickedID: 107422
+    m_ExpandedIDs: 0000000042c000009ea3010000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -354,7 +1099,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f4350000
+    m_ExpandedIDs: 0000000042c0000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -381,7 +1126,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -409,8 +1154,8 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 207
---- !u!114 &13
+  m_DirectoriesAreaWidth: 199
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -426,15 +1171,19 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000,
+      type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 3170
-    y: 332.5
-    width: 284
-    height: 644
+    x: 1323.2001
+    y: 73.6
+    width: 330
+    height: 997.80005
   m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
@@ -443,12 +1192,12 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
-  m_AssetGUID: 
-  m_InstanceID: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &14
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -464,21 +1213,25 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000,
+      type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2249
-    y: 332.5
-    width: 227
-    height: 373
+    x: 0
+    y: 73.6
+    width: 263
+    height: 629.4
   m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
+      scrollPos: {x: 0, y: 752}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 42fbffff
+      m_ExpandedIDs: dce0f8ffe0e0f8fff0e0f8ff0ee1f8ff14e1f8ff36e1f8ff3ce1f8ff8ae1f8ff9ae1f8ffa6e1f8ffb4e1f8ffc4e1f8ffe2e1f8fffae1f8ff22e2f8ff38e2f8ff46e2f8ff54e2f8ff62e2f8ff70e2f8ff7ee2f8ff8ce2f8ff9ae2f8ffa8e2f8fface2f8ffbae2f8ffc8e2f8ffd6e2f8ffe4e2f8fff2e2f8ff00e3f8ff0ee3f8ff1ce3f8ff2ae3f8ff2ee3f8ff3ce3f8ff4ae3f8ff58e3f8ff66e3f8ff74e3f8ff82e3f8ff90e3f8ff9ee3f8fface3f8ffb0e3f8ffbee3f8ffcce3f8ffdae3f8ffe8e3f8fff6e3f8ff04e4f8ff12e4f8ff20e4f8ff2ee4f8ff32e4f8ff36e4f8ff44e4f8ff52e4f8ff60e4f8ff6ee4f8ff7ce4f8ff8ae4f8ff98e4f8ffa6e4f8ffb4e4f8ffb8e4f8ffc6e4f8ffd4e4f8ffe2e4f8fff0e4f8fffee4f8ff0ce5f8ff1ae5f8ff28e5f8ff36e5f8ff3ae5f8ff48e5f8ff56e5f8ff64e5f8ff72e5f8ff80e5f8ff8ee5f8ff9ce5f8ffaae5f8ffb8e5f8ffbce5f8ffcae5f8ffd8e5f8ffe6e5f8fff4e5f8ff02e6f8ff10e6f8ff1ee6f8ff2ce6f8ff3ae6f8ff3ee6f8ff4ce6f8ff5ae6f8ff68e6f8ff76e6f8ff84e6f8ff92e6f8ffa0e6f8ffaee6f8ffbce6f8ffc0e6f8ffc4e6f8ffd2e6f8ffe0e6f8ffeee6f8fffce6f8ff0ae7f8ff18e7f8ff26e7f8ff34e7f8ff42e7f8ff46e7f8ff54e7f8ff62e7f8ff70e7f8ff7ee7f8ff8ce7f8ff9ae7f8ffa8e7f8ffb6e7f8ffc4e7f8ffc8e7f8ffd6e7f8ffe4e7f8fff2e7f8ff00e8f8ff0ee8f8ff1ce8f8ff2ae8f8ff38e8f8ff46e8f8ff4ae8f8ff58e8f8ff66e8f8ff74e8f8ff82e8f8ff90e8f8ff9ee8f8fface8f8ffbae8f8ffc8e8f8ffcce8f8ffd0e8f8ffdee8f8ffece8f8fffae8f8ff08e9f8ff16e9f8ff24e9f8ff32e9f8ff40e9f8ff4ee9f8ff52e9f8ff60e9f8ff6ee9f8ff7ce9f8ff8ae9f8ff98e9f8ffa6e9f8ffb4e9f8ffc2e9f8ffd0e9f8ffd4e9f8ffe2e9f8fff0e9f8fffee9f8ff0ceaf8ff1aeaf8ff28eaf8ff36eaf8ff44eaf8ff52eaf8ff56eaf8ff64eaf8ff72eaf8ff80eaf8ff8eeaf8ff9ceaf8ffaaeaf8ffb8eaf8ffc6eaf8ffd4eaf8ffd8eaf8ffe6eaf8fff4eaf8ff02ebf8ff10ebf8ff1eebf8ff2cebf8ff3aebf8ff48ebf8ff56ebf8ff5aebf8ff5eebf8ff6cebf8ff7aebf8ff88ebf8ff96ebf8ffa4ebf8ffb2ebf8ffc0ebf8ffceebf8ffdcebf8ffe0ebf8ffeeebf8fffcebf8ff0aecf8ff18ecf8ff26ecf8ff34ecf8ff42ecf8ff50ecf8ff5eecf8ff62ecf8ff70ecf8ff7eecf8ff8cecf8ff9aecf8ffa8ecf8ffb6ecf8ffc4ecf8ffd2ecf8ffe0ecf8ffe4ecf8fff2ecf8ff00edf8ff0eedf8ff1cedf8ff2aedf8ff38edf8ff46edf8ff54edf8ff62edf8ff66edf8ff6aedf8ff78edf8ff86edf8ff94edf8ffa2edf8ffb0edf8ffbeedf8ffccedf8ffdaedf8ffe8edf8ffecedf8fffaedf8ff08eef8ff16eef8ff24eef8ff32eef8ff40eef8ff4eeef8ff5ceef8ff6aeef8ff6eeef8ff7ceef8ff8aeef8ff98eef8ffa6eef8ffb4eef8ffc2eef8ffd0eef8ffdeeef8ffeceef8fff0eef8fffeeef8ff0ceff8ff1aeff8ff28eff8ff36eff8ff44eff8ff52eff8ff60eff8ff6eeff8ff72eff8ff80eff8ff8eeff8ff9ceff8ffaaeff8ffb8eff8ffc6eff8ffd4eff8ffe2eff8fff0eff8fff4eff8fff8eff8ff06f0f8ff14f0f8ff22f0f8ff30f0f8ff3ef0f8ff4cf0f8ff5af0f8ff68f0f8ff76f0f8ff7af0f8ff88f0f8ff96f0f8ffa4f0f8ffb2f0f8ffc0f0f8ffcef0f8ffdcf0f8ffeaf0f8fff8f0f8fffcf0f8ff0af1f8ff18f1f8ff26f1f8ff34f1f8ff42f1f8ff50f1f8ff5ef1f8ff6cf1f8ff7af1f8ff7ef1f8ff8cf1f8ff9af1f8ffa8f1f8ffb6f1f8ffc4f1f8ffd2f1f8ffe0f1f8ffeef1f8fffcf1f8ff00f2f8ff04f2f8ff12f2f8ff20f2f8ff2ef2f8ff3cf2f8ff4af2f8ff58f2f8ff66f2f8ff74f2f8ff82f2f8ff86f2f8ff94f2f8ffa2f2f8ffb0f2f8ffbef2f8ffccf2f8ffdaf2f8ffe8f2f8fff6f2f8ff04f3f8ff08f3f8ff16f3f8ff24f3f8ff32f3f8ff40f3f8ff4ef3f8ff5cf3f8ff6af3f8ff78f3f8ff86f3f8ff8af3f8ff98f3f8ffa6f3f8ffb4f3f8ffc2f3f8ffd0f3f8ffdef3f8ffecf3f8fffaf3f8ff08f4f8ff0cf4f8ff1af4f8ff28f4f8ff36f4f8ff44f4f8ff52f4f8ff60f4f8ff6ef4f8ff7cf4f8ff8af4f8ff8ef4f8ff92f4f8ff94f4f8ffa2f4f8ffb0f4f8ffbef4f8ffccf4f8ffdaf4f8ffe8f4f8ffeaf4f8ff02f5f8ff0ef5f8ff1cf5f8ff2af5f8ff38f5f8ff46f5f8ff54f5f8ff62f5f8ff70f5f8ff7ef5f8ff8cf5f8ff90f5f8ff9ef5f8ffacf5f8ffbaf5f8ffc8f5f8ffd6f5f8ffe4f5f8fff2f5f8ff00f6f8ff0ef6f8ff12f6f8ff20f6f8ff2ef6f8ff3cf6f8ff4af6f8ff58f6f8ff66f6f8ff74f6f8ff82f6f8ff90f6f8ff94f6f8ffa2f6f8ffb0f6f8ffbef6f8ffccf6f8ffdaf6f8ffe8f6f8fff6f6f8ff04f7f8ff12f7f8ff16f7f8ff18f7f8ff26f7f8ff34f7f8ff42f7f8ff50f7f8ff5ef7f8ff6cf7f8ff7af7f8ff88f7f8ff96f7f8ff9af7f8ffa8f7f8ffb6f7f8ffc4f7f8ffd2f7f8ffe0f7f8ffeef7f8fffcf7f8ff0af8f8ff18f8f8ff1cf8f8ff2af8f8ff38f8f8ff46f8f8ff54f8f8ff62f8f8ff70f8f8ff7ef8f8ff8cf8f8ff9af8f8ff9ef8f8ffacf8f8ffbaf8f8ffc8f8f8ffd6f8f8ffe4f8f8fff2f8f8ff00f9f8ff0ef9f8ff1cf9f8ff20f9f8ff24f9f8ff32f9f8ff40f9f8ff4ef9f8ff5cf9f8ff6af9f8ff78f9f8ff86f9f8ff94f9f8ffa2f9f8ffa6f9f8ffb4f9f8ffc2f9f8ffd0f9f8ffdef9f8ffecf9f8fffaf9f8ff08faf8ff16faf8ff24faf8ff28faf8ff36faf8ff44faf8ff52faf8ff60faf8ff6efaf8ff7cfaf8ff8afaf8ff98faf8ffa6faf8ffaafaf8ffb8faf8ffc6faf8ffd4faf8ffe2faf8fff0faf8fffefaf8ff0cfbf8ff1afbf8ff28fbf8ff2cfbf8ff3afbf8ff48fbf8ff56fbf8ff64fbf8ff72fbf8ff80fbf8ff8efbf8ff9cfbf8ffaafbf8ffaefbf8ffb2fbf8ffc0fbf8ffcefbf8ffdcfbf8ffeafbf8fff8fbf8ff06fcf8ff14fcf8ff22fcf8ff30fcf8ff34fcf8ff42fcf8ff50fcf8ff5efcf8ff6cfcf8ff7afcf8ff88fcf8ff96fcf8ffa4fcf8ffb2fcf8ffb6fcf8ffc4fcf8ffd2fcf8ffe0fcf8ffeefcf8fffcfcf8ff0afdf8ff18fdf8ff26fdf8ff34fdf8ff38fdf8ff46fdf8ff54fdf8ff62fdf8ff70fdf8ff7efdf8ff8cfdf8ff9afdf8ffa8fdf8ffb6fdf8ffbafdf8ffbefdf8ffccfdf8ffdafdf8ffe8fdf8fff6fdf8ff04fef8ff12fef8ff20fef8ff2efef8ff3cfef8ff40fef8ff4efef8ff5cfef8ff6afef8ff78fef8ff86fef8ff94fef8ffa2fef8ffb0fef8ffbefef8ffc2fef8ffd0fef8ffdefef8ffecfef8fffafef8ff08fff8ff16fff8ff24fff8ff32fff8ff40fff8ff44fff8ff52fff8ff60fff8ff6efff8ff7cfff8ff8afff8ff98fff8ffa6fff8ffb4fff8ffc2fff8ffc6fff8ffd4fff8ffe2fff8fff0fff8fffefff8ff0c00f9ff1a00f9ff2800f9ff3600f9ff4400f9ff4800f9ff4c00f9ff5a00f9ff6800f9ff7600f9ff8400f9ff9200f9ffa000f9ffae00f9ffbc00f9ffca00f9ffce00f9ffdc00f9ffea00f9fff800f9ff0601f9ff1401f9ff2201f9ff3001f9ff3e01f9ff4c01f9ff5001f9ff5e01f9ff6c01f9ff7a01f9ff8801f9ff9601f9ffa401f9ffb201f9ffc001f9ffce01f9ffd201f9ffe001f9ffee01f9fffc01f9ff0a02f9ff1802f9ff2602f9ff3402f9ff4202f9ff5002f9ff5402f9ff5802f9ff6602f9ff7402f9ff8202f9ff9002f9ff9e02f9ffac02f9ffba02f9ffc802f9ffd602f9ffda02f9ffe802f9fff602f9ff0403f9ff1203f9ff2003f9ff2e03f9ff3c03f9ff4a03f9ff5803f9ff5c03f9ff6a03f9ff7803f9ff8603f9ff9403f9ffa203f9ffb003f9ffbe03f9ffcc03f9ffda03f9ffde03f9ffec03f9fffa03f9ff0804f9ff1604f9ff2404f9ff3204f9ff4004f9ff4e04f9ff5c04f9ff6004f9ff6e04f9ff7c04f9ff8a04f9ff9804f9ffa604f9ffb404f9ffc204f9ffd004f9ffde04f9ffe204f9ffe604f9fff404f9ff0205f9ff1005f9ff1e05f9ff2c05f9ff3a05f9ff4805f9ff5605f9ff6405f9ff6805f9ff7605f9ff8405f9ff9205f9ffa005f9ffae05f9ffbc05f9ffca05f9ffd805f9ffe605f9ffea05f9fff805f9ff0606f9ff1406f9ff2206f9ff3006f9ff3e06f9ff4c06f9ff5a06f9ff6806f9ff6c06f9ff7a06f9ff8806f9ff9606f9ffa406f9ffb206f9ffc006f9ffce06f9ffdc06f9ffea06f9ffee06f9fff206f9ff0007f9ff0e07f9ff1c07f9ff2a07f9ff3807f9ff4607f9ff5407f9ff6207f9ff7007f9ff7407f9ff8207f9ff9007f9ff9e07f9ffac07f9ffba07f9ffc807f9ffd607f9ffe407f9fff207f9fff607f9ff0408f9ff1208f9ff2008f9ff2e08f9ff3c08f9ff4a08f9ff5808f9ff6608f9ff7408f9ff7808f9ff8608f9ff9408f9ffa208f9ffb008f9ffbe08f9ffcc08f9ffda08f9ffe808f9fff608f9fffa08f9ff0809f9ff1609f9ff2409f9ff3209f9ff4009f9ff4e09f9ff5c09f9ff6a09f9ff7809f9ff7c09f9ff8009f9ff8209f9ff9009f9ff9e09f9ffac09f9ffba09f9ffc809f9ffd609f9ffda09f9ffe809f9fff609f9ff040af9ff120af9ff200af9ff2e0af9ff320af9ff340af9ff420af9ff500af9ff5e0af9ff6c0af9ff7a0af9ff880af9ff8a0af9ff980af9ffa60af9ffb40af9ffc20af9ffd00af9ffde0af9ffe00af9ffee0af9fffc0af9ff000bf9ff0e0bf9ff1c0bf9ff200bf9ff2e0bf9ff3c0bf9ff400bf9ff4e0bf9ff5c0bf9ff600bf9ff6e0bf9ff7c0bf9ff8a0bf9ff980bf9ffa60bf9ffb40bf9ffc20bf9ffd00bf9ffde0bf9ffec0bf9ffee0bf9fffc0bf9ff0a0cf9ff180cf9ff260cf9ff340cf9ff420cf9ff460cf9ff540cf9ff620cf9ff700cf9ff7e0cf9ff8c0cf9ff9a0cf9ff9e0cf9ffa00cf9ffae0cf9ffbc0cf9ffca0cf9ffd80cf9ffe60cf9fff40cf9fff60cf9ff040df9ff120df9ff200df9ff2e0df9ff3c0df9ff4a0df9ff580df9ff660df9ff740df9ff780df9ff860df9ff940df9ffa20df9ffb00df9ffbe0df9ffcc0df9ffda0df9ffe80df9fff60df9fffa0df9ff080ef9ff160ef9ff240ef9ff320ef9ff400ef9ff4e0ef9ff5c0ef9ff6a0ef9ff780ef9ff7c0ef9ff8a0ef9ff980ef9ffa60ef9ffb40ef9ffc20ef9ffd00ef9ffde0ef9ffec0ef9fffa0ef9fffe0ef9ff020ff9ff100ff9ff1e0ff9ff2c0ff9ff3a0ff9ff480ff9ff560ff9ff640ff9ff720ff9ff800ff9ff840ff9ff920ff9ffa00ff9ffae0ff9ffbc0ff9ffca0ff9ffd80ff9ffe60ff9fff40ff9ff0210f9ff0610f9ff1410f9ff2210f9ff3010f9ff3e10f9ff4c10f9ff5a10f9ff6810f9ff7610f9ff8410f9ff8810f9ff9610f9ffa410f9ffb210f9ffc010f9ffce10f9ffdc10f9ffea10f9fff810f9ff0a11f9ff1811f9ff2611f9ff3411f9ff4211f9ff5011f9ff5e11f9ff6c11f9ff7a11f9ff8811f9ff8c11f9ff8e11f9ffb411f9ffb811f9ffd211f9ffd611f9fff811f9fffc11f9ff0812f9ff0c12f9ff1412f9ff1812f9ff3012f9ff4812f9ff4c12f9ff5412f9ff5812f9ff5c12f9ff6012f9ff6412f9ff7612f9ff8812f9ffa012f9ffac12f9ffba12f9ffc812f9ffd612f9ffe412f9fff212f9ff0013f9ff0213f9ff2813f9ff3613f9ff4413f9ff5213f9ff6013f9ff6e13f9ff7213f9ff8013f9ff8e13f9ff9c13f9ffaa13f9ffb813f9ffc613f9ffca13f9ffcc13f9ffda13f9ff4014f9ff4e14f9ff5c14f9ff6a14f9ff7814f9ff8614f9ff8a14f9ff9814f9ffa614f9ffb414f9ffc214f9ffd014f9ffde14f9ffe214f9fff014f9fffe14f9ff0c15f9ff1a15f9ff2815f9ff3615f9ff3a15f9ff4815f9ff5615f9ff6415f9ff7215f9ff8015f9ff8e15f9ff9215f9ffa015f9ffae15f9ffbc15f9ffca15f9ffd815f9ffe615f9ffea15f9fff815f9ff0616f9ff1416f9ff2216f9ff3016f9ff3e16f9ff4216f9ff5016f9ff5e16f9ff6c16f9ff7a16f9ff8816f9ff9616f9ff9a16f9ffa816f9ffb616f9ffc416f9ffd216f9ffe016f9ffee16f9fff216f9ff0017f9ff0e17f9ff1c17f9ff2a17f9ff3817f9ff4617f9ff4a17f9ff5817f9ff6617f9ff7417f9ff8217f9ff9017f9ff9e17f9ffa217f9ffb017f9ffbe17f9ffcc17f9ffda17f9ffe817f9fff617f9fffa17f9fffc17f9ff1a18f9ff2e18f9ff4218f9ff6618f9ff7418f9ff8218f9ff9018f9ff9e18f9ffac18f9ffae18f9ffbc18f9ffca18f9ffd818f9ffe618f9fff418f9ff0219f9ff1019f9ff1e19f9ff2c19f9ff3019f9ff3e19f9ff4c19f9ff5a19f9ff6819f9ff7619f9ff8419f9ff9219f9ffa019f9ffae19f9ffb219f9ffc019f9ffce19f9ffdc19f9ffea19f9fff819f9ff061af9ff141af9ff221af9ff301af9ff341af9ff421af9ff501af9ff5e1af9ff6c1af9ff7a1af9ff881af9ff961af9ffa41af9ffb21af9ffb61af9ffba1af9ffc81af9ffd61af9ffe41af9fff21af9ff001bf9ff0e1bf9ff1c1bf9ff2a1bf9ff381bf9ff3c1bf9ff4a1bf9ff581bf9ff661bf9ff741bf9ff821bf9ff901bf9ff9e1bf9ffac1bf9ffba1bf9ffbe1bf9ffcc1bf9ffda1bf9ffe81bf9fff61bf9ff041cf9ff121cf9ff201cf9ff2e1cf9ff3c1cf9ff401cf9ff4e1cf9ff5c1cf9ff6a1cf9ff781cf9ff861cf9ff941cf9ffa21cf9ffb01cf9ffbe1cf9ffc21cf9ffd01cf9ffde1cf9ffec1cf9fffa1cf9ff081df9ff161df9ff241df9ff321df9ff401df9ff441df9ff481df9ff561df9ff641df9ff721df9ff801df9ff8e1df9ff9c1df9ffaa1df9ffb81df9ffc61df9ffca1df9ffd81df9ffe61df9fff41df9ff021ef9ff101ef9ff1e1ef9ff2c1ef9ff3a1ef9ff481ef9ff4c1ef9ff5a1ef9ff681ef9ff761ef9ff841ef9ff921ef9ffa01ef9ffae1ef9ffbc1ef9ffca1ef9ffce1ef9ffdc1ef9ffea1ef9fff81ef9ff061ff9ff141ff9ff221ff9ff301ff9ff3e1ff9ff4c1ff9ff501ff9ff541ff9ff621ff9ff701ff9ff7e1ff9ff8c1ff9ff9a1ff9ffa81ff9ffb61ff9ffc41ff9ffd21ff9ffd61ff9ffe41ff9fff21ff9ff0020f9ff0e20f9ff1c20f9ff2a20f9ff3820f9ff4620f9ff5420f9ff5820f9ff6620f9ff7420f9ff8220f9ff9020f9ff9e20f9ffac20f9ffba20f9ffc820f9ffd620f9ffda20f9ffe820f9fff620f9ff0421f9ff1221f9ff2021f9ff2e21f9ff3c21f9ff4a21f9ff5821f9ff5c21f9ff6a21f9ff7821f9ff8621f9ff9421f9ffa221f9ffb021f9ffbe21f9ffcc21f9ffda21f9ffde21f9ffe221f9fff021f9fffe21f9ff0c22f9ff1a22f9ff2822f9ff3622f9ff4422f9ff5222f9ff6022f9ff6422f9ff7222f9ff8022f9ff8e22f9ff9c22f9ffaa22f9ffb822f9ffc622f9ffd422f9ffe222f9ffe622f9fff422f9ff0223f9ff1023f9ff1e23f9ff2c23f9ff3a23f9ff4823f9ff5623f9ff6423f9ff6823f9ff7623f9ff8423f9ff9223f9ffa023f9ffae23f9ffbc23f9ffca23f9ffd823f9ffe623f9ffea23f9ffee23f9fffc23f9ff0a24f9ff1824f9ff2624f9ff3424f9ff4224f9ff5024f9ff5e24f9ff6c24f9ff7024f9ff7e24f9ff8c24f9ff9a24f9ffa824f9ffb624f9ffc424f9ffd224f9ffe024f9ffee24f9fff224f9ff0025f9ff0e25f9ff1c25f9ff2a25f9ff3825f9ff4625f9ff5425f9ff6225f9ff7025f9ff7425f9ff8225f9ff9025f9ff9e25f9ffac25f9ffba25f9ffc825f9ffd625f9ffe425f9fff225f9fff625f9ff0426f9ff1226f9ff2026f9ff2e26f9ff3c26f9ff4a26f9ff5826f9ff6626f9ff7426f9ff7826f9ff7c26f9ff8a26f9ff9826f9ffa626f9ffb426f9ffc226f9ffd026f9ffde26f9ffec26f9fffa26f9fffe26f9ff0c27f9ff1a27f9ff2827f9ff3627f9ff4427f9ff5227f9ff6027f9ff6e27f9ff7c27f9ff8027f9ff8e27f9ff9c27f9ffaa27f9ffb827f9ffc627f9ffd427f9ffe227f9fff027f9fffe27f9ff0228f9ff1028f9ff1e28f9ff2c28f9ff3a28f9ff4828f9ff5628f9ff6428f9ff7228f9ff8028f9ff8428f9ff8828f9ff9628f9ffa428f9ffb228f9ffc028f9ffce28f9ffdc28f9ffea28f9fff828f9ff0629f9ff0a29f9ff1829f9ff2629f9ff3429f9ff4229f9ff5029f9ff5e29f9ff6c29f9ff7a29f9ff8829f9ff8c29f9ff9a29f9ffa829f9ffb629f9ffc429f9ffd229f9ffe029f9ffee29f9fffc29f9ff0a2af9ff0e2af9ff1c2af9ff2a2af9ff382af9ff462af9ff542af9ff622af9ff702af9ff7e2af9ff8c2af9ff902af9ff9e2af9ffac2af9ffba2af9ffc82af9ffd62af9ffe42af9fff22af9ff002bf9ff0e2bf9ff122bf9ff162bf9ff182bf9ff262bf9ff342bf9ff422bf9ff502bf9ff5e2bf9ff6c2bf9ff6e2bf9ff7c2bf9ff8a2bf9ff982bf9ffa62bf9ffb42bf9ffc22bf9ffc42bf9ffd22bf9ffe02bf9ffee2bf9fffc2bf9ff0a2cf9ff182cf9ff1a2cf9ff282cf9ff362cf9ff442cf9ff522cf9ff602cf9ff6e2cf9ff722cf9ff802cf9ff8e2cf9ff9c2cf9ffaa2cf9ffb82cf9ffc62cf9ffca2cf9ffcc2cf9ffda2cf9ffe82cf9fff62cf9ff042df9ff122df9ff202df9ff222df9ff302df9ff3e2df9ff4c2df9ff5a2df9ff682df9ff762df9ff782df9ff862df9ff942df9ffa22df9ffb02df9ffbe2df9ffcc2df9ffce2df9ffee2df9fff22df9ff4a2ef9ff562ef9ff5a2ef9ff5e2ef9ff622ef9ff6a2ef9ff6e2ef9ff722ef9ff762ef9ff7c2ef9ff8e2ef9ff9c2ef9ffaa2ef9ffb82ef9ffc62ef9ffd42ef9ffe42ef9fff22ef9ff002ff9ff0e2ff9ff1c2ff9ff2a2ff9ff2c2ff9ff3a2ff9ff482ff9ff562ff9ff642ff9ff722ff9ff802ff9ff822ff9ff902ff9ff9e2ff9ffac2ff9ffba2ff9ffc82ff9ffd62ff9ffd82ff9ffe62ff9fff42ff9ff0230f9ff1030f9ff1e30f9ff2c30f9ff3a30f9ff4830f9ff5630f9ff5a30f9ff6830f9ff7630f9ff8430f9ff9230f9ffa030f9ffae30f9ffbc30f9ffca30f9ffd830f9ffdc30f9ffea30f9fff830f9ff0631f9ff1431f9ff2231f9ff3031f9ff3e31f9ff4c31f9ff5a31f9ff5e31f9ff6c31f9ff7a31f9ff8831f9ff9631f9ffa431f9ffb231f9ffc031f9ffce31f9ffdc31f9ffe031f9ffe431f9fff231f9ff0032f9ff0e32f9ff1c32f9ff2a32f9ff3832f9ff4632f9ff5432f9ff6232f9ff6632f9ff7432f9ff8232f9ff9032f9ff9e32f9ffac32f9ffba32f9ffc832f9ffd632f9ffe432f9ffe832f9fff632f9ff0433f9ff1233f9ff2033f9ff2e33f9ff3c33f9ff4a33f9ff5833f9ff6633f9ff6a33f9ff7833f9ff8633f9ff9433f9ffa233f9ffb033f9ffbe33f9ffcc33f9ffda33f9ffe833f9ffec33f9fff033f9fffe33f9ff0c34f9ff1a34f9ff2834f9ff3634f9ff4434f9ff5234f9ff6034f9ff6e34f9ff7234f9ff8034f9ff8e34f9ff9c34f9ffaa34f9ffb834f9ffc634f9ffd434f9ffe234f9fff034f9fff434f9ff0235f9ff1035f9ff1e35f9ff2c35f9ff3a35f9ff4835f9ff5635f9ff6435f9ff7235f9ff7635f9ff8435f9ff9235f9ffa035f9ffae35f9ffbc35f9ffca35f9ffd835f9ffe635f9fff435f9fff835f9fffc35f9ff0a36f9ff1836f9ff2636f9ff3436f9ff4236f9ff5036f9ff5e36f9ff6c36f9ff7a36f9ff7e36f9ff8c36f9ff9a36f9ffa836f9ffb636f9ffc436f9ffd236f9ffe036f9ffee36f9fffc36f9ff0037f9ff0e37f9ff1c37f9ff2a37f9ff3837f9ff4637f9ff5437f9ff6237f9ff7037f9ff7e37f9ff8237f9ff9037f9ff9e37f9ffac37f9ffba37f9ffc837f9ffd637f9ffe437f9fff237f9ff0038f9ff0438f9ff0838f9ff0c38f9ff1a38f9ff2838f9ff3638f9ff4438f9ff5238f9ff6038f9ff6e38f9ff7c38f9ff8a38f9ff8e38f9ff9c38f9ffaa38f9ffb838f9ffc638f9ffd438f9ffe238f9fff038f9fffe38f9ff0c39f9ff1039f9ff1e39f9ff2c39f9ff3a39f9ff4839f9ff5639f9ff6439f9ff7239f9ff8039f9ff8e39f9ff9239f9ffa039f9ffae39f9ffbc39f9ffca39f9ffd839f9ffe639f9fff439f9ff023af9ff103af9ff143af9ff223af9ff303af9ff3e3af9ff4c3af9ff5a3af9ff683af9ff763af9ff843af9ff923af9ff963af9ffa43af9ffb23af9ffc03af9ffce3af9ffdc3af9ffea3af9fff83af9ff063bf9ff143bf9ff183bf9ff263bf9ff343bf9ff423bf9ff503bf9ff5e3bf9ff6c3bf9ff7a3bf9ff883bf9ff963bf9ff9a3bf9ffa83bf9ffb63bf9ffc43bf9ffd23bf9ffe03bf9ffee3bf9fffc3bf9ff0a3cf9ff183cf9ff1c3cf9ff2a3cf9ff383cf9ff463cf9ff543cf9ff623cf9ff703cf9ff7e3cf9ff8c3cf9ff9a3cf9ff9e3cf9ffa03cf9ffae3cf9ffbc3cf9ffca3cf9ffd83cf9ffe63cf9fff43cf9fff83cf9ff063df9ff143df9ff223df9ff303df9ff3e3df9ff4c3df9ff503df9ff523df9ff603df9ff6e3df9ff7c3df9ff8a3df9ff983df9ffa63df9ffb43df9ffc23df9ffd03df9ffde3df9ffec3df9fffa3df9ff083ef9ff163ef9ff243ef9ff323ef9ff403ef9ff4e3ef9ff5c3ef9ff6a3ef9ff783ef9ff863ef9ff943ef9ffa23ef9ffb03ef9ffbe3ef9ffcc3ef9ffd03ef9ffd23ef9ffe03ef9ffee3ef9fffc3ef9ff0a3ff9ff183ff9ff263ff9ff343ff9ff383ff9ff463ff9ff543ff9ff623ff9ff703ff9ff7e3ff9ff8c3ff9ff903ff9fff63ff9ff0440f9ff1240f9ff2040f9ff2e40f9ff3c40f9ff4040f9ff4e40f9ff5c40f9ff6a40f9ff7840f9ff8640f9ff9440f9ff9840f9ffa640f9ffb440f9ffc240f9ffd040f9ffde40f9ffec40f9fff040f9fffe40f9ff0c41f9ff1a41f9ff2841f9ff3641f9ff4441f9ff4841f9ff5641f9ff6441f9ff7241f9ff8041f9ff8e41f9ff9c41f9ffa041f9ffae41f9ffbc41f9ffca41f9ffd841f9ffe641f9fff441f9fff841f9ff0642f9ff1442f9ff2242f9ff3042f9ff3e42f9ff4c42f9ff5042f9ff5e42f9ff6c42f9ff7a42f9ff8842f9ff9642f9ffa442f9ffa842f9ffaa42f9ffb842f9ffc642f9ffd442f9ffe242f9fff042f9fffe42f9ff0c43f9ff1a43f9ff2843f9ff2c43f9ff3a43f9ff4843f9ff5643f9ff6443f9ff7243f9ff8043f9ff8e43f9ff9c43f9ffaa43f9ffae43f9ffbc43f9ffca43f9ffd843f9ffe643f9fff443f9ff0244f9ff1044f9ff1e44f9ff2c44f9ff3044f9ff3e44f9ff4c44f9ff5a44f9ff6844f9ff7644f9ff8444f9ff9244f9ffa044f9ffae44f9ffb244f9ffb644f9ffc444f9ffd244f9ffe044f9ffee44f9fffc44f9ff0a45f9ff1845f9ff2645f9ff3445f9ff3845f9ff4645f9ff5445f9ff6245f9ff7045f9ff7e45f9ff8c45f9ff9a45f9ffa845f9ffb645f9ffba45f9ffc845f9ffd645f9ffe445f9fff245f9ff0046f9ff0e46f9ff1c46f9ff2a46f9ff3846f9ff3c46f9ff4a46f9ff5846f9ff6646f9ff7446f9ff8246f9ff9046f9ff9e46f9ffac46f9ffba46f9ffbe46f9ffcc46f9ffda46f9ffe846f9fff646f9ff0447f9ff1247f9ff2047f9ff2e47f9ff3c47f9ff4047f9ff4447f9ff5247f9ff6047f9ff6e47f9ff7c47f9ff8a47f9ff9847f9ffa647f9ffb447f9ffc247f9ffc647f9ffd447f9ffe247f9fff047f9fffe47f9ff0c48f9ff1a48f9ff2848f9ff3648f9ff4448f9ff4848f9ff5648f9ff6448f9ff7248f9ff8048f9ff8e48f9ff9c48f9ffaa48f9ffb848f9ffc648f9ffca48f9ffd848f9ffe648f9fff448f9ff0249f9ff1049f9ff1e49f9ff2c49f9ff3a49f9ff4849f9ff4c49f9ff5049f9ff5e49f9ff6c49f9ff7a49f9ff8849f9ff9649f9ffa449f9ffb249f9ffc049f9ffce49f9ffd249f9ffe049f9ffee49f9fffc49f9ff0a4af9ff184af9ff264af9ff344af9ff424af9ff504af9ff544af9ff624af9ff704af9ff7e4af9ff8c4af9ff9a4af9ffa84af9ffb64af9ffc44af9ffd24af9ffd64af9ffe44af9fff24af9ff004bf9ff0e4bf9ff1c4bf9ff2a4bf9ff384bf9ff464bf9ff544bf9ff584bf9ff664bf9ff744bf9ff824bf9ff904bf9ff9e4bf9ffac4bf9ffba4bf9ffc84bf9ffd64bf9ffda4bf9ffde4bf9ffec4bf9fffa4bf9ff084cf9ff164cf9ff244cf9ff324cf9ff404cf9ff4e4cf9ff5c4cf9ff604cf9ff6e4cf9ff7c4cf9ff8a4cf9ff984cf9ffa64cf9ffb44cf9ffc24cf9ffd04cf9ffde4cf9ffe24cf9fff04cf9fffe4cf9ff0c4df9ff1a4df9ff284df9ff364df9ff444df9ff524df9ff604df9ff644df9ff724df9ff804df9ff8e4df9ff9c4df9ffaa4df9ffb84df9ffc64df9ffd44df9ffe24df9ffe64df9ffea4df9fff84df9ff064ef9ff144ef9ff224ef9ff304ef9ff3e4ef9ff4c4ef9ff5a4ef9ff684ef9ff6c4ef9ff7a4ef9ff884ef9ff964ef9ffa44ef9ffb24ef9ffc04ef9ffce4ef9ffdc4ef9ffea4ef9ffee4ef9fffc4ef9ff0a4ff9ff184ff9ff264ff9ff344ff9ff424ff9ff504ff9ff5e4ff9ff6c4ff9ff704ff9ff7e4ff9ff8c4ff9ff9a4ff9ffa84ff9ffb64ff9ffc44ff9ffd24ff9ffe04ff9ffee4ff9fff24ff9ff0050f9ff0e50f9ff1c50f9ff2a50f9ff3850f9ff4650f9ff5450f9ff6250f9ff7050f9ff7450f9ff7850f9ff8650f9ff9450f9ffa250f9ffb050f9ffbe50f9ffcc50f9ffda50f9ffe850f9fff650f9fffa50f9ff0851f9ff1651f9ff2451f9ff3251f9ff4051f9ff4e51f9ff5c51f9ff6a51f9ff7851f9ff7c51f9ff8a51f9ff9851f9ffa651f9ffb451f9ffc251f9ffd051f9ffde51f9ffec51f9fffa51f9fffe51f9ff0c52f9ff1a52f9ff2852f9ff3652f9ff4452f9ff5252f9ff6052f9ff6e52f9ff7c52f9ff8052f9ff8452f9ff9252f9ffa052f9ffae52f9ffbc52f9ffca52f9ffd852f9ffe652f9fff452f9ff0253f9ff0653f9ff1453f9ff2253f9ff3053f9ff3e53f9ff4c53f9ff5a53f9ff6853f9ff7653f9ff8453f9ff8853f9ff9653f9ffa453f9ffb253f9ffc053f9ffce53f9ffdc53f9ffea53f9fff853f9ff0654f9ff0a54f9ff1854f9ff2654f9ff3454f9ff4254f9ff5054f9ff5e54f9ff6c54f9ff7a54f9ff8854f9ff8c54f9ff9a54f9ffa854f9ffb654f9ffc454f9ffd254f9ffe054f9ffee54f9fffc54f9ff0a55f9ff0e55f9ff1255f9ff1455f9ff2e55f9ff4655f9ff5455f9ff6255f9ff7055f9ff7e55f9ff8c55f9ff9a55f9ff9e55f9ffac55f9ffba55f9ffc855f9ffd655f9ffe455f9fff255f9fff655f9ff0456f9ff1256f9ff2056f9ff2e56f9ff3c56f9ff4a56f9ff4e56f9ff5256f9ff6056f9ff6e56f9ff7c56f9ff8a56f9ff9856f9ffa656f9ffaa56f9ffb856f9ffc656f9ffd456f9ffe256f9fff056f9fffe56f9ff0257f9ff0657f9ff1457f9ff2257f9ff3057f9ff3e57f9ff4c57f9ff5a57f9ff5e57f9ff6c57f9ff7a57f9ff8857f9ff9657f9ffa457f9ffb257f9ffb657f9ffba57f9ffc857f9ffcc57f9ffda57f9ffe857f9fff657f9ff0458f9ff1258f9ff2058f9ff2458f9ff3258f9ff4058f9ff4e58f9ff5c58f9ff6a58f9ff7858f9ff7c58f9ff8a58f9ff9858f9ffa658f9ffb458f9ffc258f9ffd058f9ffd458f9ffe258f9fff058f9fffe58f9ff0259f9ff1059f9ff7259f9ff7659f9ff9059f9ff9459f9ffb659f9ffba59f9ffc659f9ffca59f9ffd259f9ffd659f9ffee59f9ff065af9ff0a5af9ff125af9ff165af9ff1a5af9ff1e5af9ff225af9ff345af9ff4e5af9ff665af9ff3684f9fffe84f9ff1cf1f9ffd001faffda01faffe401fafff601faff7695faff1e38fbff1220feffd0fbffff9ea80200aca80200baa80200eca8020014a902001aa902003aa9020040a9020056a902005ea9020062a9020084a90200a0a90200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -501,8 +1254,8 @@ MonoBehaviour:
     m_LockTracker:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
-  m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &15
+  m_WindowGUID: 46b7a0fefa812c44ca6fda42b4d7b176
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -518,17 +1271,207 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000,
+      type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2477
-    y: 332.5
-    width: 691
-    height: 373
+    x: 264
+    y: 73.6
+    width: 1057.2
+    height: 629.4
   m_ViewDataDictionary: {fileID: 0}
-  m_ShowContextualTools: 0
-  m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData:
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Tool Settings
+      index: 0
+      layout: 1
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 149}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-grid-and-snap-toolbar
+      index: 1
+      layout: 1
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-scene-view-toolbar
+      index: 0
+      layout: 1
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-search-toolbar
+      index: 1
+      layout: 1
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-transform-toolbar
+      index: 0
+      layout: 2
+    - dockPosition: 0
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 67.5, y: 86}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Orientation
+      index: 0
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Light Settings
+      index: 0
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Camera
+      index: 1
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Constraints
+      index: 2
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Collisions
+      index: 3
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Navmesh Display
+      index: 4
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Agent Display
+      index: 5
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Obstacle Display
+      index: 6
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Occlusion Culling
+      index: 7
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Physics Debugger
+      index: 8
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Scene Visibility
+      index: 9
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Particles
+      index: 10
+      layout: 4
+  m_WindowGUID: d69a67902db7f994ca099bec79d22ce1
   m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
@@ -538,9 +1481,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: 5.675741, y: 2.4691029, z: 5.202032}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: 5.675741, y: 2.4691029, z: 5.202032}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -550,13 +1493,14 @@ MonoBehaviour:
   m_DoValidateTrueMetals: 0
   m_ExposureSliderValue: 0
   m_SceneViewState:
+    m_AlwaysRefresh: 0
     showFog: 1
-    showMaterialUpdate: 0
     showSkybox: 1
     showFlares: 1
     showImageEffects: 1
     showParticleSystems: 1
     showVisualEffectGraphs: 1
+    m_FxEnabled: 1
   m_Grid:
     xGrid:
       m_Fade:
@@ -586,13 +1530,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Target: {x: 0.2372165, y: 0.32998544, z: -0.08605346, w: 0.9096407}
     speed: 2
-    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Value: {x: 0.23708555, y: 0.33134726, z: -0.0864086, w: 0.90913856}
   m_Size:
-    m_Target: 10
+    m_Target: 24.348967
     speed: 2
-    m_Value: 10
+    m_Value: 25.4963
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -600,12 +1544,12 @@ MonoBehaviour:
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5
-    m_SpeedMin: 0.001
+    m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
     m_EasingDuration: 0.4
     m_AccelerationEnabled: 1
-    m_FieldOfView: 90
+    m_FieldOfViewHorizontalOrVertical: 60
     m_NearClip: 0.03
     m_FarClip: 10000
     m_DynamicClip: 1
@@ -617,7 +1561,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &16
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -633,40 +1577,44 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000,
+      type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 507
-    y: 94
-    width: 1532
-    height: 790
+    x: 264.80002
+    y: 73.6
+    width: 1056.3999
+    height: 631
   m_ViewDataDictionary: {fileID: 0}
-  m_SerializedViewsNames: []
-  m_SerializedViewsValues: []
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
   m_PlayModeViewName: GameView
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 640, y: 480}
+  m_TargetSize: {x: 2560, y: 1440}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
-  m_RenderIMGUI: 0
-  m_MaximizeOnPlay: 0
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 0
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 05000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -766
-    m_HBaseRangeMax: 766
-    m_VBaseRangeMin: -395
-    m_VBaseRangeMax: 395
+    m_HBaseRangeMin: -1024
+    m_HBaseRangeMax: 1024
+    m_VBaseRangeMin: -576
+    m_VBaseRangeMax: 576
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -675,7 +1623,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -683,30 +1631,30 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
-      width: 1532
-      height: 790
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 766, y: 395}
+      y: 21
+      width: 1056.3999
+      height: 610
+    m_Scale: {x: 0.51582026, y: 0.51582026}
+    m_Translation: {x: 528.19995, y: 305}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -766
-      y: -395
-      width: 1532
-      height: 790
+      x: -1024
+      y: -591.29126
+      width: 2048
+      height: 1182.5825
     m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1532, y: 790}
+  m_defaultScale: 0.51582026
+  m_LastWindowPixelSize: {x: 1320.4999, y: 788.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_LowResolutionForAspectRatios: 01000000000100000100
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &17
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -722,25 +1670,16 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000,
+      type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2249
-    y: 726.5
-    width: 920
-    height: 250
+    x: 0
+    y: 679
+    width: 1354
+    height: 320
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &18
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 13963, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_DontSaveToLayout: 0
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
